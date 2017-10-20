@@ -1,0 +1,91 @@
+.left-title {
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    height: 100%;
+    display: inline-block;
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.timer {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -10px;
+    right: 0;
+    border-radius: 30px;
+    background-color: white;
+    text-align: center;
+    z-index: 1000;
+    padding-top: 15px;
+    color: black;
+    border: solid black 3px;
+}
+
+.user-feedback {
+    height: 35px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    border-radius: 30px;
+    z-index: 90;
+    color: white;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    transition: all 500ms;
+}
+
+.start {
+    width: 35px;
+}
+
+.end {
+    width: 200px;
+}
+
+.correct {
+    background-color: rgb(52, 240, 52) !important;
+}
+
+.incorrect {
+    background-color: rgb(240, 58, 52) !important;
+}
+
+.display-none {
+    display: none !important;
+}
+
+.user-feedback p {
+    text-overflow: ellipsis;
+}
+
+.relative {
+    position: relative;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+#start-button {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.pointer {
+    -webkit-transition: all 2000ms;
+    -moz-transition: all 2000ms;
+    transition: all 2000ms;
+}
+
+
+/* .first-tile {
+    margin-top: 50px !important;
+} */

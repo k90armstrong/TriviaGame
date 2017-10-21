@@ -9,6 +9,34 @@ $('document').ready(function () {
             query: 'category=11'
         },
         {
+            name: 'Vehicles',
+            query: 'category=28'
+        },
+        {
+            name: 'Mythology',
+            query: 'category=20'
+        },
+        {
+            name: 'Comics',
+            query: 'category=29'
+        },
+        {
+            name: 'History',
+            query: 'category=23'
+        },
+        {
+            name: 'Politics',
+            query: 'category=24'
+        },
+        {
+            name: 'Geography',
+            query: 'category=22'
+        },
+        {
+            name: 'Celebrities',
+            query: 'category=26'
+        },
+        {
             name: 'Science and Nature',
             query: 'category=17'
         },

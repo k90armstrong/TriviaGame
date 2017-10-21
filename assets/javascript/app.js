@@ -163,9 +163,9 @@ $('document').ready(function () {
 
     // objects
     var game = {
-        startTime: 30,
+        startTime: 20,
         questionIndex: 0,
-        timer: 30,
+        timer: 20,
         wait: false,
         $timer: $('#timer-p'),
         $answer1: $('#ans-1'),

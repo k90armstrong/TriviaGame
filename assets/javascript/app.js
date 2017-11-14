@@ -92,6 +92,7 @@ $('document').ready(function () {
     }
 
     function getCategoryObject(name) {
+        // function to loop through the categories and match by name
         for (var i = 0; i < categories.length; i++) {
             if (categories[i].name === name) {
                 return categories[i];
@@ -101,6 +102,7 @@ $('document').ready(function () {
     }
 
     function getDifficultyObject(name) {
+        // loop through dificulties objects and match by name
         for (var i = 0; i < difficulties.length; i++) {
             if (difficulties[i].name === name) {
                 return difficulties[i];
@@ -401,19 +403,7 @@ $('document').ready(function () {
         }, 3000);
     });
 
-
-
     // main process
     addCategoriesToSelection();
-
-
-
-
-
-
-
-
-
-
 
 });
